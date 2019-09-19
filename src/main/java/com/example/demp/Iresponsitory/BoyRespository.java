@@ -1,4 +1,4 @@
-package com.example.demp.unknown;
+package com.example.demp.Iresponsitory;
 
 import com.example.demp.pojo.Boy;
 import org.springframework.data.jpa.repository.JpaRepository;

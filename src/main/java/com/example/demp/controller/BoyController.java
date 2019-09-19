@@ -1,7 +1,7 @@
 package com.example.demp.controller;
 
 import com.example.demp.pojo.Boy;
-import com.example.demp.unknown.BoyRespository;
+import com.example.demp.Iresponsitory.BoyRespository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
