@@ -14,7 +14,7 @@ public class FirstController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String say() {
-        return "hello Git555";
+        return "hello Git666";
     }
 }
 
