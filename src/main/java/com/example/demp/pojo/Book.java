@@ -1,8 +1,14 @@
 package com.example.demp.pojo;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
+@Entity
 public class Book {
 
+  @Id
+  @GeneratedValue
   private String id;
   private String name;
   private String author;
